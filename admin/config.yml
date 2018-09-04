@@ -24,7 +24,7 @@ collections:
         name: "tags2"
         widget: "list"
         field:
-          - {label: "Draft", name: "draft", widget: "boolean", default: true}
+          - { label: Image, name: image, widget: image}
   # Our blog posts
   - name: 'blog' # Used in routes, e.g., /admin/collections/blog
     label: 'Post' # Used in the UI
