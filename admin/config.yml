@@ -17,8 +17,8 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: "Gallery"
-        name: "galleryImages"
+      - label: "Gallery0"
+        name: "galleryImages0"
         widget: "list"
         field:
           - {label: Image, name: image, widget: image}
@@ -30,7 +30,7 @@ collections:
       - label: "Gallery2"
         name: "galleryImages2"
         widget: "list"
-        fields:
+        field:
           - {label: Image, name: image, widget: image}
   # Our blog posts
   - name: 'blog' # Used in routes, e.g., /admin/collections/blog
