@@ -21,18 +21,12 @@ collections:
         name: "galleryImages"
         widget: "list"
         field:
-          - {label: Image, name: image, widget: image, default: "/img/emmet.jpg"}
+          - {label: Uno, name: uno, widget: image, default: "/img/emmet.jpg"}
       - label: "Testimonials"
         name: "testimonials"
         widget: "list"
-        fields:
+        field:
           - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
-          - label: Author
-            name: author
-            widget: object
-            fields:
-              - {label: Name, name: name, widget: string, default: "Emmet"}
-              - {label: Avatar, name: avatar, widget: image, default: "/img/emmet.jpg"}
   # Our blog posts
   - name: 'blog' # Used in routes, e.g., /admin/collections/blog
     label: 'Post' # Used in the UI
