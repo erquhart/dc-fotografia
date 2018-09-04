@@ -6,3 +6,7 @@ tags:
   - post
 ---
 el post
+
+
+
+![](/static/img/baker.png)
