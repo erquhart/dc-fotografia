@@ -20,12 +20,10 @@ collections:
       - { label: 'Tags', name: 'tags', widget: 'hidden', default: 'nav' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Featured Image', name: 'thumbnail', widget: 'image' }
-      - label: 'Galería'
-        name: 'galleryImages'
-        widget: 'list'
-        fields:
-          - {label: "Description", name: "description", widget: "text"}
-          - {label: 'Image', name: 'image', widget: 'image' }
+      - label: "Tags2"
+        name: "tags2"
+        widget: "list"
+        default: ["news"]
   # Our blog posts
   - name: 'blog' # Used in routes, e.g., /admin/collections/blog
     label: 'Post' # Used in the UI
