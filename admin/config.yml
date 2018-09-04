@@ -8,6 +8,23 @@ backend:
 media_folder: 'static/img' # Media files will be stored in the repo under images/uploads
 
 collections:
+  - name: 'bodas'
+    label: 'Boda'
+    folder: 'bodas'
+    create: false # Change to true to allow editors to create new pages
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Permalink', name: 'permalink', widget: 'string' }
+      - { label: 'Navigation Title', name: 'navtitle', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'hidden', default: 'nav' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Galería'
+        name: 'galleryImages'
+        widget: 'list'
+        field:
+          - {label: 'Image', name: 'image', widget: 'image'}
   # Our blog posts
   - name: 'blog' # Used in routes, e.g., /admin/collections/blog
     label: 'Post' # Used in the UI
