@@ -23,7 +23,8 @@ collections:
       - label: "Tags2"
         name: "tags2"
         widget: "list"
-        default: ["news"]
+        field:
+          - {label: "Draft", name: "draft", widget: "boolean", default: true}
   # Our blog posts
   - name: 'blog' # Used in routes, e.g., /admin/collections/blog
     label: 'Post' # Used in the UI
