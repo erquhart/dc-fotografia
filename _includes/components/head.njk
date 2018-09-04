@@ -7,7 +7,7 @@
   {% endset %}
   <style>{{ css | cssmin | safe }}</style> #}
 
-  <link rel="stylesheet" href="{{ 'assets/css/style.css' | url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | url }}">
   {# An optional javascript pipeline; outputs minified JS into <head>
   {% set js %}
     {% include "assets/js/inline.js" %}
