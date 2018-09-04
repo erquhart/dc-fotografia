@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'NeuzeitGroT';
+    src: url('NeuzeitGroT-Regu.woff2') format('woff2'),
+        url('NeuzeitGroT-Regu.woff') format('woff'),
+        url('NeuzeitGroT-Regu.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('PlayfairDisplay-Regular.woff2') format('woff2'),
+        url('PlayfairDisplay-Regular.woff') format('woff'),
+        url('PlayfairDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
