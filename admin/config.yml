@@ -21,7 +21,7 @@ collections:
         name: "galleryImages2"
         widget: "list"
         fields:
-          - {label: Image2, name: image2, widget: image}
+          - {label: Image, name: image, widget: image}
       - label: "Testimonials"
         name: "testimonials"
         widget: "list"
